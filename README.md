@@ -1,4 +1,5 @@
 # How to build a Power Inverter
+By Daniel Mezhiborsky, Jaewon Cho, and Gavri Kepets
 ## Introduction - What is an Inverter?
 An inverter is a power electronics device that can convert direct current to alternating current. Inverters can be used for numerous different things; a common application of an inverter is to deliver high voltage AC signals to the outlets in a house, for example. For this project, a full bridge inverter was successfully built and used to supply AC power to an outlet, which was used to power a few different devices.
 
