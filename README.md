@@ -24,7 +24,7 @@ Then, build the first half of the full bridge inverter.
 ![Circuit Diagram](./circuit_half.png)
 
 Next, build the other half of the full bridge inverter.
-![Circuit Diagram](./circuit_half.png)
+![Circuit Diagram](./circuit_full.png)
 
 Finally, attached the outputs of each half to the transformer, and connect the output of the transformer to whatever you want to power.
 ![Circuit Diagram](./circuit_transformer.png)
