@@ -13,3 +13,4 @@ Next, the full bridge is built. This circuit takes the input signal and converts
 Finally, the output from the full bridge is fed to a transformer, which steps up the AC signal. 
 
 ## Circuit Diagram
+![Circuit Diagram](./circuit.png)
