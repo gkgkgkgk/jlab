@@ -14,3 +14,32 @@ Finally, the output from the full bridge is fed to a transformer, which steps up
 
 ## Circuit Diagram
 ![Circuit Diagram](./circuit.png)
+Above is the full circuit diagram. Below is a step by step on how to build it.
+
+First, connect the input signal to the hex inverter. The input signal that was used was a modulated sine wave, with a carrier frequency of 60Hz and a modulation frequency of 20kHz (Note: We used a 5V voltage regulator for the supply voltage of the inverter).
+![Circuit Diagram](./circuit_wave.png)
+
+Then, build the first half of the full bridge inverter.
+![Circuit Diagram](./circuit_half.png)
+
+Next, build the other half of the full bridge inverter.
+![Circuit Diagram](./circuit_half.png)
+
+Finally, attached the outputs of each half to the transformer, and connect the output of the transformer to whatever you want to power.
+![Circuit Diagram](./circuit_transformer.png)
+
+## Parts List
+
+| **Part**    | **Quantity** | **Model No.**                   |
+|-------------|--------------|---------------------------------|
+| MOSFET      | 4            | IRF540                          |
+| Gate Driver | 2            | IR2110                          |
+| Resistors   | 8            | 10Ohm X 4, 1KOhm X 4            |
+| Capacitors  | 10           | 22uF X 4, 100nF X 4, 200uF, 1uF |
+| Transformer | 1            | CY1205000C6                     |
+| Diodes      | 6            | MBR360G                         |
+
+## Pictures
+
+![Circuit Diagram](./circuitimg.png)
+![Circuit Diagram](./waveimg.png)
