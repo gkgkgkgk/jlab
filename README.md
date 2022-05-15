@@ -41,5 +41,5 @@ Finally, attached the outputs of each half to the transformer, and connect the o
 
 ## Pictures
 
-![Circuit Diagram](./circuitimg.png)
-![Circuit Diagram](./waveimg.png)
+![Circuit Diagram](./circuitimg.jpeg)
+![Circuit Diagram](./waveimg.jpeg)
